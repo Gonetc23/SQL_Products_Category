@@ -3,7 +3,7 @@ CREATE TABLE Products (
 	name varchar(255) NOT NULL,
 );
 
-INSERT INTO Product
+INSERT INTO Products
 VALUES  (1, 'Хлеб'),
 	(2, 'Молоко'),
 	(3, 'Шампунь'),
