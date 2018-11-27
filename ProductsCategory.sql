@@ -1,6 +1,6 @@
 CREATE TABLE ProductsCategory (
-	products_id  INT FOREIGN KEY REFERENCES Products(id),
-	category_id INT FOREIGN KEY REFERENCES Category(id)
+	products_id  INT not null,
+	category_id INT not null
 );
 
 INSERT INTO ProductsCategory
