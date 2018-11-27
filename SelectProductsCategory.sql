@@ -1,5 +1,5 @@
 
-select prod.name [Имя продукта], prodcat.name [Имя категории]
+select prod.name [РРјСЏ РїСЂРѕРґСѓРєС‚Р°], prodcat.name [РРјСЏ РєР°С‚РµРіРѕСЂРёРё]
 from Products prod
 left join ProductsCategory prodcat on prod.id = prodcat.id
 order by prod.name
