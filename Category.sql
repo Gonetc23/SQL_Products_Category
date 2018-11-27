@@ -4,5 +4,5 @@ CREATE TABLE Category (
 );
 
 INSERT INTO Category 
-VALUES  (1, 'Продукты'),
-        (2, 'Бытовая химия');
+VALUES  (1, 'РџСЂРѕРґСѓРєС‚С‹'),
+        (2, 'Р‘С‹С‚РѕРІР°СЏ С…РёРјРёСЏ');
